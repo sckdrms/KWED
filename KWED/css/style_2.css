@@ -14,13 +14,14 @@ div{
   transition: all 0.2s;
 }
 
-footer{
+footer {
   position: fixed;
-  bottom: 0px;
-  position: absolute;
+  bottom: 0;
+  width: 100%; /* 전체 너비를 채우도록 설정 */
   background-color: black;
   color: white;
 }
+
 
 .nanumxb{
   font-family: '나눔볼드';
