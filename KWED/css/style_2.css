@@ -14,7 +14,7 @@ div{
   transition: all 0.2s;
 }
 
-footer {
+footer{
   position: fixed;
   bottom: 0;
   width: 100%; /* 전체 너비를 채우도록 설정 */
@@ -271,6 +271,19 @@ font-family: 'NanumGothicExtraBold';
   right: 2.4vw; /* 사이드바를 화면 오른쪽 끝으로 이동하여 표시 */
 }
 
+a {
+  color: black; /* 기본 색상 */
+  text-decoration: none; /* 밑줄 없음 */
+}
+
+a:link, a:visited {
+  color: black; /* 방문 전과 방문 후 기본 색상: 검은색 */
+  text-decoration: none; /* 밑줄 없음 */
+}
+
+/* 다크 모드일 때 적용할 스타일 */
+
+
 .plus-icon{
   position: absolute;
   right: 20px;
@@ -289,18 +302,27 @@ font-family: 'NanumGothicExtraBold';
 .copyrightbox{
   width: 100vw;
 }
+.copyright{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0.4em;
+}
 
 /* dark mode option */
-.bgw{
+/* .bgw{
   background-color: white;
-}
+} */
 
 
 .dark-mode{
   background-color:black ;/* 다크 모드의 배경색 */
   color: white; /* 다크 모드의 텍스트 색상 */
 }
-
+.dark-mode a, .dark-mode span {
+  color: white; /* 다크 모드에서 흰색 텍스트 */
+}
 .dark-mode .sidebar-dark {
   background-color:black ;/* 다크 모드의 배경색 */
   color: white; /* 다크 모드의 텍스트 색상 */
