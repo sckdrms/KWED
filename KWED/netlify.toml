@@ -2,3 +2,6 @@
   from = "/"
   to = "/html/index.html"
   status = 301
+
+[build]
+  functions = "/JS/kakaomap.js"
