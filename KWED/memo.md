@@ -7,7 +7,7 @@ https://www.notion.so/devrmss/KY-bus-plus-1ffb93a0bf0a4303b12e33b617c61e07
 3. Fullpage.js 사용해보기
 4. test
 5. 2024.02.03 안경 잃음
-6. kakaomap testing
+6. kakaomap testing2
 
 dropdown 참고
 https://www.w3schools.com/css/css_dropdowns.asp
