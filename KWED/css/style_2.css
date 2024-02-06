@@ -22,6 +22,11 @@ footer{
   color: white;
 }
 
+img{
+	image-rendering: -webkit-optimize-contrast; 
+	transform: translateZ(0);
+	backface-visibility: hidden;
+}
 
 .nanumxb{
   font-family: '나눔볼드';
