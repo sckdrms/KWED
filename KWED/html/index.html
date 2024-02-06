@@ -150,18 +150,112 @@
 
         <main class="col ps-md-2 pt-2">
 
-<!-- 
-          <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#giftDropdown" aria-expanded="false" aria-controls="giftDropdown">
-            <i class="bi bi-gift"></i> <span>학생 혜택</span><i class="bi bi-plus-lg plus-icon"></i>
-          </a>
-          <div id="giftDropdown" class="collapse">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item list-item-pd" > - 대학생 복지 및 혜택</li>
-              <li class="list-group-item list-item-pd" > - 학교 학생 계정 및 이메일</li>
-            </ul>
-          </div> -->
 
-          <div id="map" style="width:100%;height:350px;"></div>
+
+          <div>
+            <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#campusDropdown1" aria-expanded="false" aria-controls="campusDropdown1">
+              <i class="bi bi-gift"></i> <span>대학생 복지 및 혜택 </span>
+            </a><i class="bi bi-plus-lg plus-icon" data-bs-toggle="collapse" data-bs-target="#campusDropdown1" aria-expanded="false" aria-controls="campusDropdown1"></i>
+            <div id="campusDropdown1" class="collapse">
+              <ul class="list-group list-group-flush">
+                <div>
+                  <ul>
+                    <li><button class="btn btn-link"><a href="https://www.ikw.ac.kr/page/5137/4070.tc">생활관 식단 링크</a></button></li>
+                    <hr>
+                    
+                  </ul>
+                  <span></span>
+                  <i class="bi bi-info-circle"></i> 생활관 연락처: 054-479-1396~7
+                </div>
+                ㅤ
+              </ul>
+            </div>
+          </div>
+
+
+          <div>
+            <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#campusDropdown2" aria-expanded="false" aria-controls="campusDropdown2">
+              <i class="bi bi-gift"></i> <span>부서 연락처</span>
+              </a><i class="bi bi-plus-lg plus-icon" data-bs-toggle="collapse" data-bs-target="#campusDropdown2" aria-expanded="false" aria-controls="campusDropdown2"></i>
+              <div id="campusDropdown2" class="collapse">
+              <ul class="list-group list-group-flush">
+                <div>
+                  <ul>
+                    <li><button class="btn btn-link"><a href="https://www.ikw.ac.kr/page/2495/1621.tc">부서 연락처 링크</a></button></li>
+                    <hr>
+                  </ul>
+                  <span></span>
+                  <i class="bi bi-info-circle"></i> 학교 메일 또는 학생증을 통하여 혜택을 받으실 수 있습니다.
+                </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+
+
+          <div>
+            <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#campusDropdown3" aria-expanded="false" aria-controls="campusDropdown3">
+              <i class="bi bi-gift"></i> <span>학사일정</span>
+              </a>
+              <i class="bi bi-plus-lg plus-icon" data-bs-toggle="collapse" data-bs-target="#campusDropdown3" aria-expanded="false" aria-controls="campusDropdown3"></i>
+              <div id="campusDropdown3" class="collapse">
+              <ul class="list-group list-group-flush">
+                <div>
+                  <ul>
+                    <li><button class="btn btn-link"><a href="https://www.ikw.ac.kr/page/2587/1698.tc">학사일정 링크</a></button></li>
+                  </ul>
+                  <span></span>
+
+                  <div class="bordernone"">
+
+                    <a href="#" class="border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#campusDropdown3_1" aria-expanded="false" aria-controls="campusDropdown3_1">
+                      <i class="bi bi-gift"></i> <span>1학기 학사일정 보기</span>
+                      </a>
+                      <i class="bi bi-plus-lg plus-icon" data-bs-toggle="collapse" data-bs-target="#campusDropdown3_1" aria-expanded="false" aria-controls="campusDropdown3_1"></i>
+                      <div id="campusDropdown3_1" class="collapse">
+                        <img style="width: 100vw; height: 100vh;" src="../images/schedule/2024_1.png" alt="">
+                        </div>
+
+
+                    <a href="#" class="border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#campusDropdown3_2" aria-expanded="false" aria-controls="campusDropdown3_2">
+                      <i class="bi bi-gift"></i> <span>2학기 학사일정 보기</span>
+                      </a>
+                      <i class="bi bi-plus-lg plus-icon" data-bs-toggle="collapse" data-bs-target="#campusDropdown3_2" aria-expanded="false" aria-controls="campusDropdown3_2"></i>
+                      <div id="campusDropdown3_2" class="collapse">
+                        <img style="width: 100vw; height: 100vh;" src="../images/schedule/2024_2.png" alt="">
+                        </div>
+                        <hr>
+                        <br>
+
+                  </div>
+
+                  <i class="bi bi-info-circle"></i> 학교 메일 또는 학생증을 통하여 혜택을 받으실 수 있습니다.
+                </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+          
+          <!-- <div id="map" style="width:100%;height:350px;"></div> -->
+
+
+
+
+
+
+
+
+
+
 
 
             <div class="page-header pt-3">
@@ -262,7 +356,7 @@
   }
 </script>
 
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=dd1bc378c4fde39d07cd31426fa2f99b"></script>
+<!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=dd1bc378c4fde39d07cd31426fa2f99b"></script>
 <script>
   window.onload = function() {
     var mapContainer = document.getElementById('map'), 
@@ -273,7 +367,7 @@
 
     var map = new kakao.maps.Map(mapContainer, mapOption); 
   }
-</script>
+</script> -->
 
 
 

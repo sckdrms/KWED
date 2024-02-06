@@ -296,7 +296,9 @@ a:link, a:visited {
   padding-left: 41.5px;
 }
 
-
+.bordernone{
+  border: none;
+}
 
 
 .copyrightbox{
