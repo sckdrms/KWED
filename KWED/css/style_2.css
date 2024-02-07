@@ -28,6 +28,10 @@ img{
 	backface-visibility: hidden;
 }
 
+ul{
+  padding-left: 0px;
+}
+
 .nanumxb{
   font-family: '나눔볼드';
 }
