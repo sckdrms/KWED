@@ -20,6 +20,7 @@ footer{
   width: 100%; /* 전체 너비를 채우도록 설정 */
   background-color: black;
   color: white;
+
 }
 
 img{
@@ -312,6 +313,7 @@ a:link, a:visited {
 
 .copyrightbox{
   width: 100vw;
+  border-top: solid 7px #1a1a1a;
 }
 .copyright{
     margin-block-start: 0em;
@@ -326,6 +328,13 @@ a:link, a:visited {
   background-color: white;
 } */
 
+.bgw {
+  background-color: white; /* 기본 배경색 */
+}
+
+.dark-mode .bgw {
+  background-color: black; /* 어두운 배경색 */
+}
 
 .dark-mode{
   background-color:black ;/* 다크 모드의 배경색 */
