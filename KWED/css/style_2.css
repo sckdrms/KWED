@@ -278,7 +278,7 @@ font-family: 'NanumGothicExtraBold';
 }
 
 #sidebar.show {
-  right: 2.4vw; /* 사이드바를 화면 오른쪽 끝으로 이동하여 표시 */
+  right:0px; /* 사이드바를 화면 오른쪽 끝으로 이동하여 표시 */
 }
 
 a {
