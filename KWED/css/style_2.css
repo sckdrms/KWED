@@ -293,6 +293,13 @@ a:link, a:visited {
 
 /* 다크 모드일 때 적용할 스타일 */
 
+.item-bcbk{
+  border:4px solid #0066B3; 
+}
+
+.hr_style{
+  border:4px solid #0066B3;
+}
 
 .plus-icon{
   position: absolute;
