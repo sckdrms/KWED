@@ -62,9 +62,12 @@
     </div>
   </div>
 </nav>
-<div class="super-container" style="margin-bottom: 130px;">
 
-  <div class="row flex-nowrap ">
+<div class="hr_style"></div>
+
+<div class="super-container" style="margin-bottom: 200px;">
+
+  <div class="flex-nowrap ">
     <div class="col-auto px-0">
       <div id="sidebar" class="collapse collapse-horizontal border-end">
             <div id="sidebar-nav" class="list-group border-0 rounded-0 text-sm-start min-vh-100 min-vw-100 bgw">
@@ -73,8 +76,10 @@
                   </a>
                   <div id="campusDropdown" class="collapse">
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item list-item-pd" ><a href="../html/index_campus.html"> - 학교 지도</a></li>
-                      <li class="list-group-item list-item-pd" ><a href="../html/index_campus.html"> - 기숙사 식단</a></li>
+                      <li class="list-group-item list-item-pd" ><a href="../html/index_campus.html"> - 캠퍼스 지도</a></li>
+                      <li class="list-group-item list-item-pd" ><a href="../html/index_campus.html"> - 샹활관 식단</a></li>
+                      <li class="list-group-item list-item-pd" ><a href="../html/index_campus.html"> - 부서 연락처</a></li>
+                      <li class="list-group-item list-item-pd" ><a href="../html/index_campus.html"> - 학사일정</a></li>
                     </ul>
                   </div>
                     <!-- 버스 항목 -->
@@ -84,9 +89,9 @@
                   <!-- 버스 드롭다운 내용 -->
                   <div id="busDropdown" class="collapse">
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item list-item-pd"><a href="../html/index_bus.html"> - 통학버스 시간표</a></li>
-                      <li class="list-group-item list-item-pd"><a href="../html/index_bus.html"> - 시내버스 시간표</a></li>
-                      <li class="list-group-item list-item-pd"><a href="../html/index_bus.html"> - 버스 줄 서는 위치</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_bus.html"> - 스쿨버스 시간표 및 노선도</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_bus.html"> - 시내버스 시간표(미구현)</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_bus.html"> - 버스 줄 서는 위치(미구현)</a></li>
                     </ul>
                   </div>
                   
@@ -100,23 +105,24 @@
                       <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 통합정보 시스템 접속방법</a></li>
                       <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 수강신청</a></li>
                       <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 성적확인</a></li>
-                      <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 휴학 및 군휴학 정보</a></li>
-                      <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 복학 정보</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 휴학 및 군휴학 신청</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 복학 신청</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 학생예비군 신청</a></li>
                       <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 졸업 시뮬레이션</a></li>
                     </ul>
                   </div>
                   
                   <!-- 졸업 항목 -->
-                  <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#graduationDropdown" aria-expanded="false" aria-controls="graduationDropdown">
+                  <!-- <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#graduationDropdown" aria-expanded="false" aria-controls="graduationDropdown">
                     <i class="bi bi-mortarboard"></i> <span>졸업</span><i class="bi bi-plus-lg plus-icon"></i>
                   </a>
                   <!-- 졸업 드롭다운 내용 -->
-                  <div id="graduationDropdown" class="collapse">
+                  <!-- <div id="graduationDropdown" class="collapse">
                     <ul class="list-group list-group-flush">
                       <li class="list-group-item list-item-pd"><a href="../html/index_graduate.html"> - 학번별 졸업 요건</a></li>
                       <li class="list-group-item list-item-pd"><a href="../html/index_graduate.html"> - 과 별 추가 졸업요건</a></li>
                     </ul>
-                  </div>
+                  </div> --> 
                   
                   <!-- 학교 관련 사이트 항목 -->
                   <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#schoolSitesDropdown" aria-expanded="false" aria-controls="schoolSitesDropdown">
@@ -125,12 +131,12 @@
                   <!-- 학교 관련 사이트 드롭다운 내용 -->
                   <div id="schoolSitesDropdown" class="collapse">
                     <ul class="list-group list-group-flush">
-                      <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 공식 홈페이지</a></li>
-                      <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 통합정보 시스템</a></li>
-                      <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 경력관리 시스템 (CDP)</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 경운대학교 공식 홈페이지</a></li>
                       <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - Smart-LMS (LMS)</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 통합정보 시스템</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 모바일 통합정보 시스템</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 경력관리 시스템 (CDP)</a></li>
                       <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 벽강도서관</a></li>
-                      <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 통합정보 시스템 접속방법</a></li>
                     </ul>
                   </div>
                   <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#giftDropdown" aria-expanded="false" aria-controls="giftDropdown">
@@ -150,7 +156,6 @@
 
 
 
-        
 
 
 
@@ -161,23 +166,6 @@
 
 
 
-          <!-- <div id="map" style="width:100%;height:350px;"></div> -->
-
-          <!-- main -->
-          <div class="m-3">
-            <div class="page-header pt-3">
-                <h2>반갑습니다</h2>
-            </div>
-            <p class="lead">경운이들에 오신걸 환영합니다 !</p>
-            <hr>
-            <div class="row">
-                <div class="col-12">
-                    <p>잘못된 정보가 있을 시 문의 부탁드립니다.</p>
-                    <p></p>
-                    
-                </div>
-            </div>
-          </div>
           <!-- main -->
 
         </main>
@@ -208,18 +196,7 @@
   </div>
 </footer>
 
-<!-- <div class="container">
-  <div class="box-link">
-    <button onclick="window.location.href='index.html';" class="link-button">
-      하교버스
-    </button>
-  </div>
-  <div class="box-link">
-    <button onclick="window.location.href='index.html';" class="link-button">
-      등교버스
-    </button>
-  </div>
-</div> -->
+
 <script>
   // 요소 선택
   const themeToggle = document.getElementById('theme-toggle');
@@ -232,20 +209,38 @@
     document.body.classList.toggle('dark-mode', isDarkMode);
     const links = document.querySelectorAll('a');
     const spans = document.querySelectorAll('span');
+    const scheduleImage = document.querySelector('img[src="../images/schedule/2024_Feb.png"]'); // 대상 이미지 선택
 
     links.forEach(link => {
-      link.style.color = isDarkMode ? "white" : "black";
+        link.style.color = isDarkMode ? "white" : "black";
     });
 
     document.querySelector('.navbar').classList.toggle('#', isDarkMode);
     sidebar.classList.toggle('sidebar-dark', isDarkMode);
     socialContainers.forEach(container => {
-      container.classList.toggle('social-dark-mode', isDarkMode);
+        container.classList.toggle('social-dark-mode', isDarkMode);
     });
 
     logo.src = isDarkMode ? '../images/Kyungwoonedeul-white-logo.png' : '../images/Kyungwoonedeul-logo.png';
+
+    // 다크 모드일 때 스케줄 이미지에 색상 반전 및 추가 스타일 적용
+    if (scheduleImage) { // 이미지가 존재하는지 확인
+        scheduleImage.style.filter = isDarkMode ? "invert(100%)" : "none";
+        // 다크 모드에 따라 추가 스타일 적용
+        if (isDarkMode) {
+            scheduleImage.style.imageRendering = "-webkit-optimize-contrast";
+            scheduleImage.style.transform = "translateZ(0)";
+            scheduleImage.style.backfaceVisibility = "hidden";
+        } else {
+            // 화이트 모드로 전환될 때 스타일 제거
+            scheduleImage.style.imageRendering = "";
+            scheduleImage.style.transform = "";
+            scheduleImage.style.backfaceVisibility = "";
+        }
+    }
+
     localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-  }
+}
 
   // 테마 토글 버튼 리스너
   themeToggle.addEventListener('click', function() {
@@ -267,18 +262,7 @@
   }
 </script>
 
-<!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=dd1bc378c4fde39d07cd31426fa2f99b"></script>
-<script>
-  window.onload = function() {
-    var mapContainer = document.getElementById('map'), 
-        mapOption = { 
-            center: new kakao.maps.LatLng(33.450701, 126.570667),
-            level: 3 
-        };
 
-    var map = new kakao.maps.Map(mapContainer, mapOption); 
-  }
-</script> -->
 
 
 

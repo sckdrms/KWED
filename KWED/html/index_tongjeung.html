@@ -19,7 +19,7 @@
   <meta property="og:title" content="경운이들">
   <meta property="og:type" content="website">
   <meta property="og:image" content="/images/thumbnail.png">
-  <meta property="og:description" content="경운대학교 재학생 사이트 > 통정 정보">
+  <meta property="og:description" content="경운대학교 재학생 사이트">
   <link rel="stylesheet" href="../css/style_2.css">
   <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
@@ -30,154 +30,370 @@
 </head>
 <body>
 
-  <nav class="navbar">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img src="../images/Kyungwoonedeul-logo.png" style="height: 20px; margin-left: 2vw;" alt="">
-      </a>
-      <div class="d-flex align-items-center">
-        <label  class="theme-switch me-2">
-          <input type="checkbox" id="theme-toggle" class="theme-switch__checkbox">
-          <div class="theme-switch__container">
-            <div class="theme-switch__clouds"></div>
-            <div class="theme-switch__stars-container">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 55" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M135.831 3.00688C135.055 3.85027 134.111 4.29946 133 4.35447C134.111 4.40947 135.055 4.85867 135.831 5.71123C136.607 6.55462 136.996 7.56303 136.996 8.72727C136.996 7.95722 137.172 7.25134 137.525 6.59129C137.886 5.93124 138.372 5.39954 138.98 5.00535C139.598 4.60199 140.268 4.39114 141 4.35447C139.88 4.2903 138.936 3.85027 138.16 3.00688C137.384 2.16348 136.996 1.16425 136.996 0C136.996 1.16425 136.607 2.16348 135.831 3.00688ZM31 23.3545C32.1114 23.2995 33.0551 22.8503 33.8313 22.0069C34.6075 21.1635 34.9956 20.1642 34.9956 19C34.9956 20.1642 35.3837 21.1635 36.1599 22.0069C36.9361 22.8503 37.8798 23.2903 39 23.3545C38.2679 23.3911 37.5976 23.602 36.9802 24.0053C36.3716 24.3995 35.8864 24.9312 35.5248 25.5913C35.172 26.2513 34.9956 26.9572 34.9956 27.7273C34.9956 26.563 34.6075 25.5546 33.8313 24.7112C33.0551 23.8587 32.1114 23.4095 31 23.3545ZM0 36.3545C1.11136 36.2995 2.05513 35.8503 2.83131 35.0069C3.6075 34.1635 3.99559 33.1642 3.99559 32C3.99559 33.1642 4.38368 34.1635 5.15987 35.0069C5.93605 35.8503 6.87982 36.2903 8 36.3545C7.26792 36.3911 6.59757 36.602 5.98015 37.0053C5.37155 37.3995 4.88644 37.9312 4.52481 38.5913C4.172 39.2513 3.99559 39.9572 3.99559 40.7273C3.99559 39.563 3.6075 38.5546 2.83131 37.7112C2.05513 36.8587 1.11136 36.4095 0 36.3545ZM56.8313 24.0069C56.0551 24.8503 55.1114 25.2995 54 25.3545C55.1114 25.4095 56.0551 25.8587 56.8313 26.7112C57.6075 27.5546 57.9956 28.563 57.9956 29.7273C57.9956 28.9572 58.172 28.2513 58.5248 27.5913C58.8864 26.9312 59.3716 26.3995 59.9802 26.0053C60.5976 25.602 61.2679 25.3911 62 25.3545C60.8798 25.2903 59.9361 24.8503 59.1599 24.0069C58.3837 23.1635 57.9956 22.1642 57.9956 21C57.9956 22.1642 57.6075 23.1635 56.8313 24.0069ZM81 25.3545C82.1114 25.2995 83.0551 24.8503 83.8313 24.0069C84.6075 23.1635 84.9956 22.1642 84.9956 21C84.9956 22.1642 85.3837 23.1635 86.1599 24.0069C86.9361 24.8503 87.8798 25.2903 89 25.3545C88.2679 25.3911 87.5976 25.602 86.9802 26.0053C86.3716 26.3995 85.8864 26.9312 85.5248 27.5913C85.172 28.2513 84.9956 28.9572 84.9956 29.7273C84.9956 28.563 84.6075 27.5546 83.8313 26.7112C83.0551 25.8587 82.1114 25.4095 81 25.3545ZM136 36.3545C137.111 36.2995 138.055 35.8503 138.831 35.0069C139.607 34.1635 139.996 33.1642 139.996 32C139.996 33.1642 140.384 34.1635 141.16 35.0069C141.936 35.8503 142.88 36.2903 144 36.3545C143.268 36.3911 142.598 36.602 141.98 37.0053C141.372 37.3995 140.886 37.9312 140.525 38.5913C140.172 39.2513 139.996 39.9572 139.996 40.7273C139.996 39.563 139.607 38.5546 138.831 37.7112C138.055 36.8587 137.111 36.4095 136 36.3545ZM101.831 49.0069C101.055 49.8503 100.111 50.2995 99 50.3545C100.111 50.4095 101.055 50.8587 101.831 51.7112C102.607 52.5546 102.996 53.563 102.996 54.7273C102.996 53.9572 103.172 53.2513 103.525 52.5913C103.886 51.9312 104.372 51.3995 104.98 51.0053C105.598 50.602 106.268 50.3911 107 50.3545C105.88 50.2903 104.936 49.8503 104.16 49.0069C103.384 48.1635 102.996 47.1642 102.996 46C102.996 47.1642 102.607 48.1635 101.831 49.0069Z" fill="currentColor"></path>
-              </svg>
-            </div>
-            <div class="theme-switch__circle-container">
-              <div class="theme-switch__sun-moon-container">
-                <div class="theme-switch__moon">
-                  <div class="theme-switch__spot"></div>
-                  <div class="theme-switch__spot"></div>
-                  <div class="theme-switch__spot"></div>
-                </div>
+<nav class="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="../images/Kyungwoonedeul-logo.png" style="height: 20px; margin-left: 2vw;" alt="">
+    </a>
+    <div class="d-flex align-items-center">
+      <label  class="theme-switch me-2">
+        <input type="checkbox" id="theme-toggle" class="theme-switch__checkbox">
+        <div class="theme-switch__container">
+          <div class="theme-switch__clouds"></div>
+          <div class="theme-switch__stars-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 55" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M135.831 3.00688C135.055 3.85027 134.111 4.29946 133 4.35447C134.111 4.40947 135.055 4.85867 135.831 5.71123C136.607 6.55462 136.996 7.56303 136.996 8.72727C136.996 7.95722 137.172 7.25134 137.525 6.59129C137.886 5.93124 138.372 5.39954 138.98 5.00535C139.598 4.60199 140.268 4.39114 141 4.35447C139.88 4.2903 138.936 3.85027 138.16 3.00688C137.384 2.16348 136.996 1.16425 136.996 0C136.996 1.16425 136.607 2.16348 135.831 3.00688ZM31 23.3545C32.1114 23.2995 33.0551 22.8503 33.8313 22.0069C34.6075 21.1635 34.9956 20.1642 34.9956 19C34.9956 20.1642 35.3837 21.1635 36.1599 22.0069C36.9361 22.8503 37.8798 23.2903 39 23.3545C38.2679 23.3911 37.5976 23.602 36.9802 24.0053C36.3716 24.3995 35.8864 24.9312 35.5248 25.5913C35.172 26.2513 34.9956 26.9572 34.9956 27.7273C34.9956 26.563 34.6075 25.5546 33.8313 24.7112C33.0551 23.8587 32.1114 23.4095 31 23.3545ZM0 36.3545C1.11136 36.2995 2.05513 35.8503 2.83131 35.0069C3.6075 34.1635 3.99559 33.1642 3.99559 32C3.99559 33.1642 4.38368 34.1635 5.15987 35.0069C5.93605 35.8503 6.87982 36.2903 8 36.3545C7.26792 36.3911 6.59757 36.602 5.98015 37.0053C5.37155 37.3995 4.88644 37.9312 4.52481 38.5913C4.172 39.2513 3.99559 39.9572 3.99559 40.7273C3.99559 39.563 3.6075 38.5546 2.83131 37.7112C2.05513 36.8587 1.11136 36.4095 0 36.3545ZM56.8313 24.0069C56.0551 24.8503 55.1114 25.2995 54 25.3545C55.1114 25.4095 56.0551 25.8587 56.8313 26.7112C57.6075 27.5546 57.9956 28.563 57.9956 29.7273C57.9956 28.9572 58.172 28.2513 58.5248 27.5913C58.8864 26.9312 59.3716 26.3995 59.9802 26.0053C60.5976 25.602 61.2679 25.3911 62 25.3545C60.8798 25.2903 59.9361 24.8503 59.1599 24.0069C58.3837 23.1635 57.9956 22.1642 57.9956 21C57.9956 22.1642 57.6075 23.1635 56.8313 24.0069ZM81 25.3545C82.1114 25.2995 83.0551 24.8503 83.8313 24.0069C84.6075 23.1635 84.9956 22.1642 84.9956 21C84.9956 22.1642 85.3837 23.1635 86.1599 24.0069C86.9361 24.8503 87.8798 25.2903 89 25.3545C88.2679 25.3911 87.5976 25.602 86.9802 26.0053C86.3716 26.3995 85.8864 26.9312 85.5248 27.5913C85.172 28.2513 84.9956 28.9572 84.9956 29.7273C84.9956 28.563 84.6075 27.5546 83.8313 26.7112C83.0551 25.8587 82.1114 25.4095 81 25.3545ZM136 36.3545C137.111 36.2995 138.055 35.8503 138.831 35.0069C139.607 34.1635 139.996 33.1642 139.996 32C139.996 33.1642 140.384 34.1635 141.16 35.0069C141.936 35.8503 142.88 36.2903 144 36.3545C143.268 36.3911 142.598 36.602 141.98 37.0053C141.372 37.3995 140.886 37.9312 140.525 38.5913C140.172 39.2513 139.996 39.9572 139.996 40.7273C139.996 39.563 139.607 38.5546 138.831 37.7112C138.055 36.8587 137.111 36.4095 136 36.3545ZM101.831 49.0069C101.055 49.8503 100.111 50.2995 99 50.3545C100.111 50.4095 101.055 50.8587 101.831 51.7112C102.607 52.5546 102.996 53.563 102.996 54.7273C102.996 53.9572 103.172 53.2513 103.525 52.5913C103.886 51.9312 104.372 51.3995 104.98 51.0053C105.598 50.602 106.268 50.3911 107 50.3545C105.88 50.2903 104.936 49.8503 104.16 49.0069C103.384 48.1635 102.996 47.1642 102.996 46C102.996 47.1642 102.607 48.1635 101.831 49.0069Z" fill="currentColor"></path>
+            </svg>
+          </div>
+          <div class="theme-switch__circle-container">
+            <div class="theme-switch__sun-moon-container">
+              <div class="theme-switch__moon">
+                <div class="theme-switch__spot"></div>
+                <div class="theme-switch__spot"></div>
+                <div class="theme-switch__spot"></div>
               </div>
             </div>
           </div>
-        </label>
-        <a href="#" data-bs-target="#sidebar" data-bs-toggle="collapse" class="border rounded-1 p-1 text-decoration-none">
-          <i class="bi bi-list bi-lg py-3 px-1"></i><span class="menu-text me-1">Menu</span>
-        </a>
-      </div>
+        </div>
+      </label>
+      <a href="#" data-bs-target="#sidebar" data-bs-toggle="collapse" class="border rounded-1 p-1 text-decoration-none">
+        <i class="bi bi-list bi-lg py-3 px-1"></i><span class="menu-text me-1">Menu</span>
+      </a>
     </div>
-  </nav>
-  <div class="super-container" style="margin-bottom: 130px;">
-  
-    <div class="row flex-nowrap ">
-      <div class="col-auto px-0">
-        <div id="sidebar" class="collapse collapse-horizontal border-end">
-              <div id="sidebar-nav" class="list-group border-0 rounded-0 text-sm-start min-vh-100 min-vw-100 bgw">
-                    <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#campusDropdown" aria-expanded="false" aria-controls="campusDropdown">
-                      <i class="bi bi-buildings"></i> <span>캠퍼스</span><i class="bi bi-plus-lg plus-icon"></i>
-                    </a>
-                    <div id="campusDropdown" class="collapse">
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item list-item-pd" ><a href="../html/index_campus.html"> - 학교 지도</a></li>
-                        <li class="list-group-item list-item-pd" ><a href="../html/index_campus.html"> - 기숙사 식단</a></li>
-                      </ul>
-                    </div>
-                      <!-- 버스 항목 -->
-                    <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#busDropdown" aria-expanded="false" aria-controls="busDropdown">
-                      <i class="bi bi-bus-front-fill"></i> <span>버스</span><i class="bi bi-plus-lg plus-icon"></i>
-                    </a>
-                    <!-- 버스 드롭다운 내용 -->
-                    <div id="busDropdown" class="collapse">
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item list-item-pd"><a href="../html/index_bus.html"> - 통학버스 시간표</a></li>
-                        <li class="list-group-item list-item-pd"><a href="../html/index_bus.html"> - 시내버스 시간표</a></li>
-                        <li class="list-group-item list-item-pd"><a href="../html/index_bus.html"> - 버스 줄 서는 위치</a></li>
-                      </ul>
-                    </div>
-                    
-                    <!-- 통합정보 시스템 정보 항목 -->
-                    <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#infoSystemDropdown" aria-expanded="false" aria-controls="infoSystemDropdown">
-                      <i class="bi bi-info-circle"></i> <span>통합정보 시스템 정보</span><i class="bi bi-plus-lg plus-icon"></i>
-                    </a>
-                    <!-- 통합정보 시스템 정보 드롭다운 내용 -->
-                    <div id="infoSystemDropdown" class="collapse">
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 통합정보 시스템 접속방법</a></li>
-                        <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 수강신청</a></li>
-                        <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 성적확인</a></li>
-                        <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 휴학 및 군휴학 정보</a></li>
-                        <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 복학 정보</a></li>
-                        <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 졸업 시뮬레이션</a></li>
-                      </ul>
-                    </div>
-                    
-                    <!-- 졸업 항목 -->
-                    <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#graduationDropdown" aria-expanded="false" aria-controls="graduationDropdown">
-                      <i class="bi bi-mortarboard"></i> <span>졸업</span><i class="bi bi-plus-lg plus-icon"></i>
-                    </a>
-                    <!-- 졸업 드롭다운 내용 -->
-                    <div id="graduationDropdown" class="collapse">
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item list-item-pd"><a href="../html/index_graduate.html"> - 학번별 졸업 요건</a></li>
-                        <li class="list-group-item list-item-pd"><a href="../html/index_graduate.html"> - 과 별 추가 졸업요건</a></li>
-                      </ul>
-                    </div>
-                    
-                    <!-- 학교 관련 사이트 항목 -->
-                    <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#schoolSitesDropdown" aria-expanded="false" aria-controls="schoolSitesDropdown">
-                      <i class="bi bi-clock"></i> <span>학교 관련 사이트</span><i class="bi bi-plus-lg plus-icon"></i>
-                    </a>
-                    <!-- 학교 관련 사이트 드롭다운 내용 -->
-                    <div id="schoolSitesDropdown" class="collapse">
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 공식 홈페이지</a></li>
-                        <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 통합정보 시스템</a></li>
-                        <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 경력관리 시스템 (CDP)</a></li>
-                        <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - Smart-LMS (LMS)</a></li>
-                        <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 벽강도서관</a></li>
-                        <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 통합정보 시스템 접속방법</a></li>
-                      </ul>
-                    </div>
-                    <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#giftDropdown" aria-expanded="false" aria-controls="giftDropdown">
-                      <i class="bi bi-gift"></i> <span>학생 혜택</span><i class="bi bi-plus-lg plus-icon"></i>
-                    </a>
-                    <div id="giftDropdown" class="collapse">
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item list-item-pd"><a href="../html/index_gift.html"> - 대학생 복지 및 혜택</a></li>
-                        <li class="list-group-item list-item-pd"><a href="../html/index_gift.html"> - 학교 학생 계정 및 이메일</a></li>
-                      </ul>
-                    </div>
+  </div>
+</nav>
+
+<div class="hr_style"></div>
+
+<div class="super-container" style="margin-bottom: 200px;">
+
+  <div class="flex-nowrap ">
+    <div class="col-auto px-0">
+      <div id="sidebar" class="collapse collapse-horizontal border-end">
+            <div id="sidebar-nav" class="list-group border-0 rounded-0 text-sm-start min-vh-100 min-vw-100 bgw">
+                  <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#campusDropdown" aria-expanded="false" aria-controls="campusDropdown">
+                    <i class="bi bi-buildings"></i> <span>캠퍼스</span><i class="bi bi-plus-lg plus-icon"></i>
+                  </a>
+                  <div id="campusDropdown" class="collapse">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item list-item-pd" ><a href="../html/index_campus.html"> - 캠퍼스 지도</a></li>
+                      <li class="list-group-item list-item-pd" ><a href="../html/index_campus.html"> - 샹활관 식단</a></li>
+                      <li class="list-group-item list-item-pd" ><a href="../html/index_campus.html"> - 부서 연락처</a></li>
+                      <li class="list-group-item list-item-pd" ><a href="../html/index_campus.html"> - 학사일정</a></li>
+                    </ul>
                   </div>
-            </div>
-          </div>
-  
-          <div class="col ps-md-2 pt-2">
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-          <!-- <div id="map" style="width:100%;height:350px;"></div> -->
-
-          <!-- main -->
-          <div class="m-3">
-            <div class="page-header pt-3">
-                <h2>반갑습니다 3</h2>
-            </div>
-            <p class="lead">경운이들에 오신걸 환영합니다 !</p>
-            <hr>
-            <div class="row">
-                <div class="col-12">
-                    <p>잘못된 정보가 있을 시 문의 부탁드립니다.</p>
-                    <p></p>
-                    
+                    <!-- 버스 항목 -->
+                  <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#busDropdown" aria-expanded="false" aria-controls="busDropdown">
+                    <i class="bi bi-bus-front-fill"></i> <span>버스</span><i class="bi bi-plus-lg plus-icon"></i>
+                  </a>
+                  <!-- 버스 드롭다운 내용 -->
+                  <div id="busDropdown" class="collapse">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item list-item-pd"><a href="../html/index_bus.html"> - 스쿨버스 시간표 및 노선도</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_bus.html"> - 시내버스 시간표(미구현)</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_bus.html"> - 버스 줄 서는 위치(미구현)</a></li>
+                    </ul>
+                  </div>
+                  
+                  <!-- 통합정보 시스템 정보 항목 -->
+                  <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#infoSystemDropdown" aria-expanded="false" aria-controls="infoSystemDropdown">
+                    <i class="bi bi-info-circle"></i> <span>통합정보 시스템 정보</span><i class="bi bi-plus-lg plus-icon"></i>
+                  </a>
+                  <!-- 통합정보 시스템 정보 드롭다운 내용 -->
+                  <div id="infoSystemDropdown" class="collapse">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 통합정보 시스템 접속방법</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 수강신청</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 성적확인</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 휴학 및 군휴학 신청</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 복학 신청</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 학생예비군 신청</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_tongjeung.html"> - 졸업 시뮬레이션</a></li>
+                    </ul>
+                  </div>
+                  
+                  <!-- 졸업 항목 -->
+                  <!-- <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#graduationDropdown" aria-expanded="false" aria-controls="graduationDropdown">
+                    <i class="bi bi-mortarboard"></i> <span>졸업</span><i class="bi bi-plus-lg plus-icon"></i>
+                  </a>
+                  <!-- 졸업 드롭다운 내용 -->
+                  <!-- <div id="graduationDropdown" class="collapse">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item list-item-pd"><a href="../html/index_graduate.html"> - 학번별 졸업 요건</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_graduate.html"> - 과 별 추가 졸업요건</a></li>
+                    </ul>
+                  </div> --> 
+                  
+                  <!-- 학교 관련 사이트 항목 -->
+                  <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#schoolSitesDropdown" aria-expanded="false" aria-controls="schoolSitesDropdown">
+                    <i class="bi bi-clock"></i> <span>학교 관련 사이트</span><i class="bi bi-plus-lg plus-icon"></i>
+                  </a>
+                  <!-- 학교 관련 사이트 드롭다운 내용 -->
+                  <div id="schoolSitesDropdown" class="collapse">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 경운대학교 공식 홈페이지</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - Smart-LMS (LMS)</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 통합정보 시스템</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 모바일 통합정보 시스템</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 경력관리 시스템 (CDP)</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_schoolsite.html"> - 벽강도서관</a></li>
+                    </ul>
+                  </div>
+                  <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#giftDropdown" aria-expanded="false" aria-controls="giftDropdown">
+                    <i class="bi bi-gift"></i> <span>학생 혜택</span><i class="bi bi-plus-lg plus-icon"></i>
+                  </a>
+                  <div id="giftDropdown" class="collapse">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item list-item-pd"><a href="../html/index_gift.html"> - 대학생 복지 및 혜택</a></li>
+                      <li class="list-group-item list-item-pd"><a href="../html/index_gift.html"> - 학교 학생 계정 및 이메일</a></li>
+                    </ul>
+                  </div>
                 </div>
-            </div>
           </div>
+        </div>
+
+        <div class="col ps-md-2 pt-2">
+
+
+
+
+
+        <!-- 통정 -->
+        <div>
+
+          <div class="item-bcbk">
+            <div class="m-3">
+              <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_8" aria-expanded="false" aria-controls="tongjeungDropdown4_8">
+                <i class="bi bi-info-circle"></i> <span>통합정보시스템 접속 방법</span>
+                </a><i class="bi bi-plus-lg plus-icon" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_8" aria-expanded="false" aria-controls="tongjeungDropdown4_8"></i>
+                <div id="tongjeungDropdown4_8" class="collapse">
+  
+                <ul class="list-group list-group-flush">
+                  <div>
+                    <ul style="padding-left: 0px;">
+                      <i class="bi bi-link-45deg"></i> <button class="btn btn-link"><a href="https://www.ikw.ac.kr/html/tmp2.html">Microsoft edge(인터넷)
+                        <br> 통합정보시스템 접속방법 공지 링크</a></button></li><br>
+  
+                      <i class="bi bi-link-45deg"></i> <button class="btn btn-link"><a href="https://www.ikw.ac.kr/board/detail.tc?mn=3289&viewType=sub&mngNo=186&pageIndex=1&boardName=GRADUATENOTICE&boardNo=302603&boardCategory=&pageSeq=2172&preview=&previewTempl=&searchCondition=1&searchKeyword=">Chrome(크롬)
+                        <br> 통합정보시스템 접속방법 공지 링크</a></button></li><br>
+    
+                    </ul>
+                    <span></span>
+                    <hr>
+                    <i class="bi bi-info-circle"></i> 한번씩 다시 추가해줘야하는거 너무 귀찮습니다.
+                    <br>
+                    <i class="bi bi-info-circle"></i> 크롬 확장 프로그램 사용하시는거 때문에 컴퓨터가 좀 느려질 수 있습니다. 갠적으로 비추에용~
+                    <hr class="hr_style">
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+          <div class="item-bcbk">
+          <div class="m-3">
+            <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_1" aria-expanded="false" aria-controls="tongjeungDropdown4_1">
+              <i class="bi bi-calendar-check"></i> <span> 수강신청</span>
+              </a><i class="bi bi-plus-lg plus-icon" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_1" aria-expanded="false" aria-controls="tongjeungDropdown4_1"></i>
+              <div id="tongjeungDropdown4_1" class="collapse">
+              <ul class="list-group list-group-flush">
+                <div>
+                  <ul style="padding-left: 0px;">
+                    <i class="bi bi-info-circle"></i><span> 수업정보 → 수강신청관리</span>
+  
+                  </ul>
+                  <span></span>
+                  <hr>
+                  <i class="bi bi-info-circle"></i> 수업정보 → 개인시간표조회 에서 확인 가능 !
+                  <hr class="hr_style">
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item-bcbk">
+            <div class="m-3">
+              <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_2" aria-expanded="false" aria-controls="tongjeungDropdown4_2">
+                <i class="bi bi-clipboard-check"></i> <span>성적확인</span>
+                </a><i class="bi bi-plus-lg plus-icon" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_2" aria-expanded="false" aria-controls="tongjeungDropdown4_2"></i>
+                <div id="tongjeungDropdown4_2" class="collapse">
+                <ul class="list-group list-group-flush">
+                  <div>
+                    <ul style="padding-left: 0px;">
+                      <i class="bi bi-link-45deg"></i><span> 수업정보 → 누계성적조회 → 조회</span>
+                      <img style="width: 91.5vw; margin-left: -3.5vw;" src="../images/apply/score2.png" alt="">
+    
+                    </ul>
+                    <span></span>
+                    <hr>
+                    <i class="bi bi-info-circle"></i> 강의평가를 진행하지 않으면 성적이 보이지 않을 수 있습니다.
+                    <hr class="hr_style">
+                  </div>
+                  </div>
+    
+              </div>
+            </div>
+
+              <div class="item-bcbk">
+              <div class="m-3">
+                <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_3" aria-expanded="false" aria-controls="tongjeungDropdown4_3">
+                  <i class="bi bi-list-ol"></i> <span>석차확인</span>
+                  </a><i class="bi bi-plus-lg plus-icon" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_3" aria-expanded="false" aria-controls="tongjeungDropdown4_3"></i>
+                  <div id="tongjeungDropdown4_3" class="collapse">
+
+                  <ul class="list-group list-group-flush">
+                    <div>
+                      <ul style="padding-left: 0px;">
+                        <i class="bi bi-info-circle"></i> <span>학적정보 → 학생정보 관리 → 성적 → 조회</span>
+                        <img style="width: 91.5vw; margin-left: -3.5vw;" src="../images/apply/score.png" alt="">
+      
+                      </ul>
+                      <span></span>
+                      <hr>
+                      <i class="bi bi-info-circle"></i> 
+                      <hr class="hr_style">
+                    </div>
+                    </div>
+      
+                </div>
+              </div>
+
+                <div class="item-bcbk">
+                <div class="m-3">
+                  <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_4" aria-expanded="false" aria-controls="tongjeungDropdown4_4">
+                    <i class="bi bi-building-fill-gear"></i> <span>휴학 및 군휴학 신청</span>
+                    </a><i class="bi bi-plus-lg plus-icon" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_4" aria-expanded="false" aria-controls="tongjeungDropdown4_4"></i>
+                    <div id="tongjeungDropdown4_4" class="collapse">
+                    
+                    <ul class="list-group list-group-flush">
+                      <div class="m-3">
+                        <ul style="padding-left: 0px;">
+                          <i class="bi bi-link-45deg"></i> <button class="btn btn-link"><a href="https://www.ikw.ac.kr/page/2586/1699.tc#n">학적 변동 공지 링크</a></button></li><br>
+                          <i class="bi bi-link-45deg"></i> <button class="btn btn-link"><a href="https://www.ikw.ac.kr/board/detail.tc?mn=2763&mngNo=77&pageIndex=1&viewType=sub&boardNo=315054&pageSeq=1893">일반휴학 신청 공지 링크</a></button></li><br>
+                          
+                        </ul>
+                        <span></span>
+        
+                        <div class="bordernone"">
+        
+                          <a href="#" class="border-end-0 d-inline-block text-truncate mt-3" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_4_1" aria-expanded="false" aria-controls="tongjeungDropdown4_4_1">
+                            <i class="bi bi-info-circle"></i> <span>휴학 신청</span>
+                            <i class="bi bi-plus-lg plus-icon" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_4_1" aria-expanded="false" aria-controls="tongjeungDropdown4_4_1"></i>
+        
+                            </a>
+                            <div id="tongjeungDropdown4_4_1" class="collapse">
+                              <img style="width: 91.5vw; margin-left: -8vw;" src="../images/apply/generel.png" alt="">
+                              </div>
+        
+                              <br>
+        
+                          <a href="#" class="border-end-0 d-inline-block text-truncate mt-3" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_4_2" aria-expanded="false" aria-controls="tongjeungDropdown4_4_2">
+                            <i class="bi bi-info-circle"></i> <span>군휴학 신청</span>
+                            <i class="bi bi-plus-lg plus-icon" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_4_2" aria-expanded="false" aria-controls="tongjeungDropdown4_4_2"></i>
+                            </a>
+        
+                            
+                            <div id="tongjeungDropdown4_4_2" class="collapse">
+                              <img style="width: 91.5vw; margin-left: -8vw;" src="../images/apply/military.png" alt="">
+                              </div>
+                              
+                              
+        
+        
+                        </div>
+                        <hr>
+                        <i class="bi bi-info-circle"></i> 학교 메일 또는 학생증을 통하여 혜택을 받으실 수 있습니다.
+                        <hr class="hr_style">
+                      </div>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+
+                  <div class="item-bcbk">
+                  <div class="m-3">
+                    <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_5" aria-expanded="false" aria-controls="tongjeungDropdown4_5">
+                      <i class="bi bi-building-down"></i> <span>복학 신청</span>
+                      </a><i class="bi bi-plus-lg plus-icon" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_5" aria-expanded="false" aria-controls="tongjeungDropdown4_5"></i>
+                      <div id="tongjeungDropdown4_5" class="collapse">
+    
+                      <ul class="list-group list-group-flush">
+                        <div>
+                          <ul style="padding-left: 0px;">
+                            <i class="bi bi-link-45deg"></i> <button class="btn btn-link"><a href="https://www.ikw.ac.kr/page/2586/1699.tc#n">학적 변동 공지 링크</a></button></li><br>
+                            <i class="bi bi-info-circle"></i> <span>통합정보시스템 → 개인화서비스 → 학부생 → 학적정보 → 복학신청</span>
+                            <img style="width: 93vw; margin-left: -3.5vw;" src="../images/apply/return.png" alt="">
+          
+                          </ul>
+                          <span></span>
+                          <hr>
+                        
+                          <i class="bi bi-info-circle"></i> 인동셔틀 돌려줘 !!
+                          <hr class="hr_style">
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="item-bcbk">
+                    <div class="m-3">
+                      <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_6" aria-expanded="false" aria-controls="tongjeungDropdown4_6">
+                        <i class="bi bi-mortarboard"></i> <span>학생예비군 신청</span>
+                        </a><i class="bi bi-plus-lg plus-icon" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_6" aria-expanded="false" aria-controls="tongjeungDropdown4_6"></i>
+                        <div id="tongjeungDropdown4_6" class="collapse">
+      
+                        <ul class="list-group list-group-flush">
+                          <div>
+                            <ul style="padding-left: 0px;">
+                              <i class="bi bi-link-45deg"></i> <button class="btn btn-link"><a href="https://www.ikw.ac.kr/board/detail.tc?mn=3607&mngNo=211&pageIndex=1&viewType=sub&boardNo=315145&pageSeq=2555">24년도 예비군 신고 공지 링크</a></button></li><br>
+                              <img style="width: 93vw; margin-left: -3.5vw;" src="../images/apply/mil_apply.png" alt="">
+            
+                            </ul>
+                            <span></span>
+                            <hr>
+                            <i class="bi bi-info-circle"></i> 신청 후 3~4일 후 메일로 확인 가능합니다.
+                            <hr class="hr_style">
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+
+                  <div class="item-bcbk">
+                    <div class="m-3">
+                      <a href="#" class="list-group-item border-end-0 d-inline-block text-truncate" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_7" aria-expanded="false" aria-controls="tongjeungDropdown4_7">
+                        <i class="bi bi-mortarboard"></i> <span>졸업시뮬레이션</span>
+                        </a><i class="bi bi-plus-lg plus-icon" data-bs-toggle="collapse" data-bs-target="#tongjeungDropdown4_7" aria-expanded="false" aria-controls="tongjeungDropdown4_7"></i>
+                        <div id="tongjeungDropdown4_7" class="collapse">
+      
+                        <ul class="list-group list-group-flush">
+                          <div>
+                            <ul style="padding-left: 0px;">
+                              <img style="width: 93vw; margin-left: -3.5vw;" src="../images/apply/gradsim.png" alt="">
+
+            
+                            </ul>
+                            <span></span>
+                            <hr>
+                            <i class="bi bi-info-circle"></i> 실행버튼을 누르고 조회버튼을 눌러야합니다.
+                            <hr class="hr_style">
+                          </div>
+                          </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+        </div>
+        <!-- 통정 -->
+
+
+
+
+
+
+
           <!-- main -->
 
         </main>
@@ -208,18 +424,7 @@
   </div>
 </footer>
 
-<!-- <div class="container">
-  <div class="box-link">
-    <button onclick="window.location.href='index.html';" class="link-button">
-      하교버스
-    </button>
-  </div>
-  <div class="box-link">
-    <button onclick="window.location.href='index.html';" class="link-button">
-      등교버스
-    </button>
-  </div>
-</div> -->
+
 <script>
   // 요소 선택
   const themeToggle = document.getElementById('theme-toggle');
@@ -232,20 +437,38 @@
     document.body.classList.toggle('dark-mode', isDarkMode);
     const links = document.querySelectorAll('a');
     const spans = document.querySelectorAll('span');
+    const scheduleImage = document.querySelector('img[src="../images/schedule/2024_Feb.png"]'); // 대상 이미지 선택
 
     links.forEach(link => {
-      link.style.color = isDarkMode ? "white" : "black";
+        link.style.color = isDarkMode ? "white" : "black";
     });
 
     document.querySelector('.navbar').classList.toggle('#', isDarkMode);
     sidebar.classList.toggle('sidebar-dark', isDarkMode);
     socialContainers.forEach(container => {
-      container.classList.toggle('social-dark-mode', isDarkMode);
+        container.classList.toggle('social-dark-mode', isDarkMode);
     });
 
     logo.src = isDarkMode ? '../images/Kyungwoonedeul-white-logo.png' : '../images/Kyungwoonedeul-logo.png';
+
+    // 다크 모드일 때 스케줄 이미지에 색상 반전 및 추가 스타일 적용
+    if (scheduleImage) { // 이미지가 존재하는지 확인
+        scheduleImage.style.filter = isDarkMode ? "invert(100%)" : "none";
+        // 다크 모드에 따라 추가 스타일 적용
+        if (isDarkMode) {
+            scheduleImage.style.imageRendering = "-webkit-optimize-contrast";
+            scheduleImage.style.transform = "translateZ(0)";
+            scheduleImage.style.backfaceVisibility = "hidden";
+        } else {
+            // 화이트 모드로 전환될 때 스타일 제거
+            scheduleImage.style.imageRendering = "";
+            scheduleImage.style.transform = "";
+            scheduleImage.style.backfaceVisibility = "";
+        }
+    }
+
     localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-  }
+}
 
   // 테마 토글 버튼 리스너
   themeToggle.addEventListener('click', function() {
@@ -267,18 +490,7 @@
   }
 </script>
 
-<!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=dd1bc378c4fde39d07cd31426fa2f99b"></script>
-<script>
-  window.onload = function() {
-    var mapContainer = document.getElementById('map'), 
-        mapOption = { 
-            center: new kakao.maps.LatLng(33.450701, 126.570667),
-            level: 3 
-        };
 
-    var map = new kakao.maps.Map(mapContainer, mapOption); 
-  }
-</script> -->
 
 
 
