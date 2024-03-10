@@ -1,6 +1,6 @@
 # 경운이들
 
-### https://kwed.netlify.app/
+### https://kwed.site
 
 # development ideas
 
