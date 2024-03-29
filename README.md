@@ -1,1 +1,1 @@
-# kwed.site
+# https://kwed.site
